@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c35">
+  <title>منصة الذكاء الاصطناعي والنظم الخبيرة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Almarai:wght@300;400;700;800&family=Alexandria:wght@300;400;500;600;700;800&family=Cairo:wght@300;400;500;600;700;800;900&family=Changa:wght@300;400;500;600;700;800&family=El+Messiri:wght@400;500;600;700&family=Harmattan:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Lateef:wght@400;500;600;700&family=Lalezar&family=Lemonada:wght@300;400;500;600;700&family=Mada:wght@400;500;600;700;900&family=Markazi+Text:wght@400;500;600;700&family=Mirza:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&family=Readex+Pro:wght@300;400;500;600;700&family=Reem+Kufi:wght@400;500;600;700&family=Scheherazade+New:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="visual-enhancements.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark"><span>AI</span><i>✦</i></div>
+        <div class="brand-copy"><strong>منصة الذكاء الاصطناعي</strong><small>والنظم الخبيرة</small></div>
+        <span class="brand-version">PRO</span>
+      </div>
+      <div class="side-label"><span>مساحة العمل</span><i>WORKSPACE</i></div>
+      <nav id="mainNav" aria-label="القائمة الرئيسية">
+        <button class="nav-link active" data-page="dashboard"><span class="nav-icon">⌂</span><span class="nav-copy"><b>الرئيسية</b><small>نظرة عامة على رحلتك</small></span><span class="nav-arrow">‹</span></button>
+        <button class="nav-link" data-page="library"><span class="nav-icon">▤</span><span class="nav-copy"><b>المكتبة العلمية</b><small>المراجع والفصول الدراسية</small></span><span class="nav-arrow">‹</span></button>
+        <button class="nav-link" data-page="practice"><span class="nav-icon">✎</span><span class="nav-copy"><b>التدريب الذكي</b><small>تدرب حسب مستواك</small></span><span class="nav-arrow">‹</span></button>
+        <button class="nav-link" data-page="exam"><span class="nav-icon">◷</span><span class="nav-copy"><b>الاختبارات</b><small>اختبر فهمك ووقتك</small></span><span class="nav-arrow">‹</span></button>
+        <button class="nav-link" data-page="bank"><span class="nav-icon">▦</span><span class="nav-copy"><b>بنك الأسئلة</b><small>ابحث وراجع الإجابات</small></span><span class="nav-arrow">‹</span></button>
+        <button class="nav-link" data-page="analytics"><span class="nav-icon">▥</span><span class="nav-copy"><b>تقارير التقدم</b><small>تابع إنجازاتك ونتائجك</small></span><span class="nav-arrow">‹</span></button>
+        <div class="nav-divider"><span>التفضيلات</span></div>
+        <button class="nav-link" data-page="settings"><span class="nav-icon">⚙</span><span class="nav-copy"><b>الإعدادات</b><small>خصص تجربة التعلم</small></span><span class="nav-arrow">‹</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="source-mini"><span class="live-dot"></span><div class="source-copy"><b>قاعدة المعرفة المحلية</b><small>المراجع المرفقة فقط</small></div><span class="source-secure" title="تعمل محليًا">●</span></div>
+        <div class="sidebar-footnote"><span>✦</span> تعلم بذكاء، وتقدم بثقة</div>
+      </div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar">
+        <button class="icon-btn mobile-menu" id="menuToggle" aria-label="فتح القائمة">☰</button>
+        <div><div class="eyebrow" id="crumb">مساحة التعلم</div><h1 id="pageTitle">الرئيسية</h1></div>
+        <div class="top-actions"><span class="date-chip" id="todayLabel"></span><button class="icon-btn" id="themeToggle" title="تغيير المظهر">◐</button><div class="avatar" title="محمد صبري عاشور الخطيب">م</div></div>
+      </header>
+      <section class="page active" id="page-dashboard">
+        <div class="welcome-panel"><div><span class="overline">رحلتك المعرفية تبدأ من هنا</span><h2>افهم الذكاء الاصطناعي،<br><em>واختبر فهمك بالدليل.</em></h2><p>منصة عربية لدراسة مقرر الذكاء الاصطناعي والنظم الخبيرة، مع تدريب واختبارات مرتبطة بالكتاب الأصلي.</p><button class="primary-btn" data-go="library">استكشف المحتوى <span>←</span></button></div><div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="core">AI<span>✧</span></div><i class="node n1">ML</i><i class="node n2">ES</i><i class="node n3">DM</i><i class="node n4">NLP</i></div></div>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="section-heading"><div><span class="overline">مسارك الدراسي</span><h2>مصادر التعلم</h2></div><button class="text-btn" data-go="library">عرض المكتبة ←</button></div>
+        <div class="source-cards" id="sourceCards"></div>
+        <div class="dashboard-grid"><div class="panel"><div class="panel-head"><div><span class="overline">استكمل من حيث توقفت</span><h3>تابع التعلم</h3></div><span class="pill">مسار مقترح</span></div><div id="continueCard"></div></div><div class="panel"><div class="panel-head"><div><span class="overline">نشاطك</span><h3>آخر الإنجازات</h3></div></div><div id="recentActivity" class="empty-state">ابدأ أول تدريب لتظهر إنجازاتك هنا.</div></div></div>
+      </section>
+      <section class="page" id="page-library"><div class="page-intro"><span class="overline">المراجع المنظمة</span><h2>المكتبة العلمية</h2><p>اختر الفصل والموضوع من كتاب المقرر الأصلي. لا تُعرض معلومات من مصادر خارجية.</p></div><div class="tabs" id="libraryTabs"><button class="tab active" data-source="course">المقرر الأساسي</button></div><div id="libraryContent"></div></section>
+      <section class="page" id="page-practice"><div class="page-intro"><span class="overline">تدريب حسب مستواك</span><h2>التدريب الذكي</h2><p>اختر مجال التدريب ومستوى الصعوبة، ثم ابدأ مجموعة أسئلة من البنك المتاح.</p></div><div class="panel setup-panel"><div class="form-grid"><label>المصدر<select id="practiceSource"><option value="course">المقرر الأساسي</option></select></label><label>نوع السؤال<select id="practiceType"><option value="all">الكل</option><option value="mcq">اختيار من متعدد</option><option value="tf">صح أو خطأ</option></select></label><label>مستوى الصعوبة<select id="practiceLevel"><option value="all">كل المستويات</option><option value="easy">سهل</option><option value="medium">متوسط</option><option value="hard">صعب</option><option value="critical">تفكير نقدي</option></select></label><label>عدد الأسئلة<select id="practiceCount"><option>5</option><option selected>10</option><option>15</option><option>20</option><option>30</option><option>50</option><option>100</option><option>200</option><option>300</option><option>600</option></select></label></div><button class="primary-btn" id="startPractice">ابدأ التدريب <span>←</span></button><div class="muted-note" id="practiceAvailable"></div></div><div id="quizArea"></div></section>
+      <section class="page" id="page-exam"><div class="page-intro"><span class="overline">قياس التحصيل</span><h2>إعداد اختبار</h2><p>اختبار تدريبي قابل للتخصيص، مع حفظ المحاولة والنتيجة محليًا على جهازك.</p></div><div class="panel setup-panel"><div class="form-grid"><label>المجال<select id="examSource"><option value="course">المقرر الأساسي</option></select></label><label>مستوى الأسئلة<select id="examLevel"><option value="all">متنوع</option><option value="easy">سهل</option><option value="medium">متوسط</option><option value="hard">صعب</option><option value="critical">تفكير نقدي</option></select></label><label>عدد الأسئلة<select id="examCount"><option>10</option><option selected>20</option><option>30</option><option>50</option><option>100</option><option>200</option><option>300</option><option>600</option></select></label><label>الزمن<select id="examTime"><option value="0">بدون مؤقت</option><option value="15">15 دقيقة</option><option value="30">30 دقيقة</option><option value="45">45 دقيقة</option></select></label></div><label class="check-line"><input type="checkbox" id="examExplain" checked> عرض التفسير بعد الإجابة</label><button class="primary-btn" id="startExam">إنشاء الاختبار <span>←</span></button><div class="muted-note">هذا اختبار تدريبي، ولا يمثل اختبارًا رسميًا للمقرر.</div></div><div id="examArea"></div></section>
+      <section class="page" id="page-bank"><div class="page-intro"><span class="overline">مراجعة موثقة</span><h2>بنك الأسئلة</h2><p>ابحث في الأسئلة المتاحة، وراجع الإجابة والتفسير ومرجع كل سؤال.</p></div><div class="bank-tools"><input id="bankSearch" type="search" placeholder="ابحث في نص السؤال أو الموضوع..."><select id="bankChapter"><option value="all">كل فصول المقرر</option></select><select id="bankFilter"><option value="all">كل المستويات</option><option value="easy">سهل</option><option value="medium">متوسط</option><option value="hard">صعب</option><option value="critical">تفكير نقدي</option></select><select id="bankType"><option value="all">كل الأنواع</option><option value="mcq">اختيار من متعدد</option><option value="tf">صح أو خطأ</option></select></div><div id="bankList"></div></section>
+      <section class="page" id="page-analytics"><div class="page-intro"><span class="overline">قياس التقدم الحقيقي</span><h2>تقارير التقدم</h2><p>تعرض هذه الصفحة بيانات المحاولات المسجلة على هذا الجهاز فقط.</p></div><div id="analyticsContent"></div></section>
+      <section class="page" id="page-settings"><div class="page-intro"><span class="overline">تفضيلات المنصة</span><h2>الإعدادات وإدارة البيانات</h2></div><div class="settings-grid"><div class="panel"><h3>المظهر</h3><p>اختر المظهر المناسب لك.</p><button class="secondary-btn" id="settingsTheme">تبديل الوضع الفاتح / الداكن</button>
+          <div class="appearance-controls" id="appearanceControls">
+            <h4>ألوان المنصة</h4><p class="muted-note">اختر لونك المفضل، وسيتم تطبيقه على الأزرار والقائمة والبطاقات والعناصر التفاعلية.</p>
+            <div class="palette-presets" role="group" aria-label="ألوان جاهزة">
+              <button type="button" class="palette-swatch" data-palette="emerald" aria-label="أخضر زمردي" title="أخضر زمردي"><i style="--swatch:#176b55"></i></button>
+              <button type="button" class="palette-swatch" data-palette="ocean" aria-label="أزرق محيطي" title="أزرق محيطي"><i style="--swatch:#2563a6"></i></button>
+              <button type="button" class="palette-swatch" data-palette="violet" aria-label="بنفسجي" title="بنفسجي"><i style="--swatch:#7252a5"></i></button>
+              <button type="button" class="palette-swatch" data-palette="rose" aria-label="وردي" title="وردي"><i style="--swatch:#b34e72"></i></button>
+              <button type="button" class="palette-swatch" data-palette="amber" aria-label="كهرماني" title="كهرماني"><i style="--swatch:#a66a22"></i></button>
+              <button type="button" class="palette-swatch" data-palette="slate" aria-label="رمادي أنيق" title="رمادي أنيق"><i style="--swatch:#536779"></i></button>
+            </div>
+            <div class="custom-colors">
+              <label>اللون الرئيسي <input type="color" id="customPrimary" value="#176b55"></label>
+              <label>اللون الثانوي <input type="color" id="customAccent" value="#c99c48"></label>
+              <label>لون الخلفية <input type="color" id="customBackground" value="#f4f7f5"></label>
+              <label>لون البطاقات <input type="color" id="customSurface" value="#ffffff"></label>
+              <label>لون النص <input type="color" id="customText" value="#18352f"></label>
+            </div>
+            <div class="appearance-actions"><button type="button" class="secondary-btn" id="applyCustomColors">تطبيق الألوان</button><button type="button" class="text-btn" id="resetCustomColors">استعادة الألوان الأصلية</button></div>
+          </div>
+
+          <div class="font-library" id="fontLibrary">
+            <h4>مكتبة الخطوط العربية</h4>
+            <p class="muted-note">اختر الخط الذي يريح عينك. يتغير خط المنصة بالكامل، ويتم حفظ اختيارك تلقائيًا.</p>
+            <label class="font-select-label" for="platformFont">خط المنصة</label>
+            <select id="platformFont" class="platform-font-select">
+              <option value="Amiri">Amiri — أميري</option>
+              <option value="Sultan">Sultan — سلطان (إذا كان مثبتًا على الجهاز)</option>
+              <option value="Sakkal Majalla">Sakkal Majalla — سكّال مجلّة (خط النظام)</option>
+              <option value="Cairo">Cairo — كايرو</option>
+              <option value="Tajawal">Tajawal — تجوال</option>
+              <option value="Noto Naskh Arabic">Noto Naskh Arabic — نسخ</option>
+              <option value="Noto Sans Arabic">Noto Sans Arabic — عربي واضح</option>
+              <option value="Almarai">Almarai — المراعي</option>
+              <option value="IBM Plex Sans Arabic">IBM Plex Sans Arabic</option>
+              <option value="Alexandria">Alexandria — إسكندرية</option>
+              <option value="Readex Pro">Readex Pro</option>
+              <option value="El Messiri">El Messiri — المسيري</option>
+              <option value="Reem Kufi">Reem Kufi — ريم كوفي</option>
+              <option value="Changa">Changa — شانجا</option>
+              <option value="Markazi Text">Markazi Text — مركزي</option>
+              <option value="Aref Ruqaa">Aref Ruqaa — عارف رقعة</option>
+              <option value="Scheherazade New">Scheherazade New — شهرزاد</option>
+              <option value="Harmattan">Harmattan — حرمتان</option>
+              <option value="Mada">Mada — مدى</option>
+              <option value="Mirza">Mirza — ميرزا</option>
+              <option value="Lateef">Lateef — لطيف</option>
+              <option value="Lalezar">Lalezar — لاله‌زار</option>
+              <option value="Lemonada">Lemonada — ليمونادة</option>
+            </select>
+            <div class="font-preview-card" id="fontPreviewCard" aria-live="polite">
+              <span>معاينة الخط المختار</span>
+              <strong id="fontPreviewText">محمد صبري عاشور الخطيب</strong>
+              <small>منصة الذكاء الاصطناعي والنظم الخبيرة — تعلّم بذكاء وتقدم بثقة.</small>
+            </div>
+            <button type="button" class="text-btn" id="resetPlatformFont">استعادة خط أميري الافتراضي</button>
+          </div>
+        </div>
+        <div class="panel sound-settings"><h3>الأصوات والمؤثرات</h3><p>خصص صوت الإجابة الصحيحة والخاطئة والمؤثرات الاحتفالية.</p>
+          <label class="sound-toggle"><input type="checkbox" id="soundEnabled" checked><span><b>تفعيل أصوات المنصة</b><small>نغمة مختلفة عند الإجابة الصحيحة أو الخاطئة</small></span></label>
+          <label class="sound-toggle"><input type="checkbox" id="celebrationEnabled" checked><span><b>احتفال الإجابة الصحيحة</b><small>قصاصات ورقية ونجوم بسيطة عند الإجابة الصحيحة</small></span></label>
+          <label class="sound-volume">مستوى الصوت <input type="range" id="soundVolume" min="0" max="100" value="45"><output id="soundVolumeValue">45%</output></label>
+          <div class="sound-test-actions"><button type="button" class="secondary-btn" id="testCorrectSound">▶ تجربة صوت التشجيع</button><button type="button" class="secondary-btn" id="testWrongSound">▶ تجربة صوت الخطأ</button></div>
+        </div><div class="panel"><h3>بياناتك التعليمية</h3><p>يمكنك تنزيل سجل تقدمك أو مسحه من هذا الجهاز.</p><button class="secondary-btn" id="exportData">تصدير بيانات التقدم JSON</button><button class="danger-btn" id="resetData">مسح بيانات التقدم</button></div><div class="panel"><h3>حدود النسخة الحالية</h3><p>الحفظ محلي على المتصفح. لا يوجد حساب مستخدم أو مزامنة بين الأجهزة في هذه النسخة الأمامية.</p><p>يمكن تصدير PDF عبر نافذة الطباعة، وتصدير ملف Word بصيغة DOCX قابلة للتحرير.</p></div></div></section>
+      <footer class="footer">منصة الذكاء الاصطناعي والنظم الخبيرة <span>•</span> جامعة الأزهر — كلية التربية <span>•</span> إعداد: محمد صبري عاشور الخطيب</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+  <script src="visual-enhancements.js"></script>
+  <script src="student-experience.js"></script>
+</body>
+</html>
